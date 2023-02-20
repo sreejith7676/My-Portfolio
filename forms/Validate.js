@@ -35,7 +35,7 @@ function validateForm(){
     }
     let message = document.forms["myForm"]["fmessage"].value;
 
-    if(message.length>30){
+    if(message.length>100){
         seterror("message", "*Message length  is too long !");
         returnval = false;
     }
